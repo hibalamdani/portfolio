@@ -1,0 +1,13 @@
+body {
+    transform-style: preserve-3d;
+}
+.container{
+    padding: 0px;
+}
+*, ::after, ::before {
+    background-color: #03A9F4;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 0px;
+    margin: 0px;
+}

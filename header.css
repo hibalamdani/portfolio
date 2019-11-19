@@ -1,0 +1,23 @@
+.nav {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.nav .nav-pills {
+  border-radius: 6.25rem;
+}
+
+.nav .nav-link {
+  padding: 1.5rem 3rem;
+  border-radius: 6.25rem;
+}
+
+.nav a {
+  color: white;
+}
+
+.header .img {
+  height: 542px;
+  width: 100%;
+}
+/*# sourceMappingURL=header.css.map */
