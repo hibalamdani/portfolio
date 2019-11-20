@@ -11,7 +11,11 @@ margin-bottom: 6px;
         padding: 1.5rem 3rem;
         border-radius: 6.25rem;
     
-    }    
+    } 
+    .nav-item:hover{
+        background-color:#007bff;
+        border-radius: 6.25rem;
+        }   
 
 a {
     color: white;

@@ -1,3 +1,4 @@
+
 .row{
  .col-lg-12{
    padding: 0px;
@@ -9,19 +10,27 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-  .row__img__img{
-    border-radius: 50%;
-    width: 100%;
-    height: 309px;
-    margin-top: -155px;
-  } 
-}
+.row__img__img{
+  border-radius: 50%;
+  width: 100%;
+  height: 309px;
+  margin-top: -155px;
+  animation: change 3s infinite linear;
 
+} 
+}
+@keyframes change {
+ 30%{
+    opacity: 0.4;
+    background-image: url("https://previews.123rf.com/images/olleg/olleg1710/olleg171000071/88931693-welcom-message-girl-holding-welcom-poster-illustration-.jpg");
+  }
+
+}
 // stat info
 .info{
 margin-top: 12px;  
 margin-bottom: 60px;
-height: 259px;
+
 
 h1{
   font-weight: bold;
@@ -47,11 +56,11 @@ line-height: 1.5rem;
 
 // start features
 .features{
+
+
+.features__h1{
+  margin-top: 109px;
   margin-bottom: 56px;
-  max-height: 693px;
-  margin-top: 20px;
-.features__h1__h1{
-  margin-bottom: 62px;
 } 
 .features__img{
   height: 140px;
@@ -59,20 +68,35 @@ line-height: 1.5rem;
 
 }
 .features__img__img{
-  transition: all 1s ease-in-out;
-}
-.features__img__img:hover{
-  transform: scale3d(2,2,2);
-}
+  animation: moving 2s infinite linear;
+  
+  
 }
 
+}
+@keyframes moving{
+  0%{
+    transform: translateX(0px);
+  }
+  25%{
+    transform: translateX(10px);
+  }
+  50%{
+    transform: translateX(15px);
+  }
+  75%{
+    transform: translateX(8px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
 // end features
 // start content
 .content{
-  height: 667px;
-
-  .content__h1__h1{
-    margin-bottom: 62px;
+  .content__h1{
+    margin-bottom: 53px;
+    margin-top: 35px;
   } 
   .content__img{
     height: 295px;
@@ -80,7 +104,7 @@ line-height: 1.5rem;
  
   }
   .content__img__img{
-    transition: all 1s ease-in-out;
+   transition: all 1s ease-in-out;
   }
   .content__img__img:hover{
     transform: translatex(15px);
@@ -91,9 +115,5 @@ line-height: 1.5rem;
 // end content
 
 // start footer
-.footer{
-  margin-top: 70px;
-    width: 100%;
-    height: 113px;
-}
+
 // end footer

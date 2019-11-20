@@ -12,6 +12,11 @@
   border-radius: 6.25rem;
 }
 
+.nav .nav-item:hover {
+  background-color: #007bff;
+  border-radius: 6.25rem;
+}
+
 .nav a {
   color: white;
 }
