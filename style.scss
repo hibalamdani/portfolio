@@ -1,7 +1,7 @@
 body {
-    perspective: 1000px;
+    // perspective: 1000px;
     // background-color: #03A9F4;
-    background-image: url("https://i.pinimg.com/originals/1f/b0/6b/1fb06be35a5689d0459519c91b052524.gif");
+    background-image: url("http://eskipaper.com/images/bubbles-wallpaper-1.jpg");
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -16,4 +16,15 @@ body {
     padding: 0px;
     margin: 0px;
 }
+}
+html {
+    scroll-behavior: smooth;
+}
+p{
+    color: white;
+}
+h3{
+    font-weight: bold;
+    margin-bottom: 14px;
+    color: white;
 }

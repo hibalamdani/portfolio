@@ -1,0 +1,32 @@
+.info {
+  margin-top: 12px;
+  margin-bottom: 60px;
+}
+
+.info h1 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 34px;
+}
+
+.info span {
+  font-weight: bold;
+  font-size: 29px;
+  color: burlywood;
+  display: block;
+  margin-bottom: -14px;
+  margin-top: 26px;
+}
+
+.info .lead {
+  line-height: 1.5rem;
+}
+
+.carousel-item p {
+  line-height: 2rem;
+}
+
+.carousel-indicators {
+  margin-bottom: -57px;
+}
+/*# sourceMappingURL=carousel.css.map */

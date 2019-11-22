@@ -6,20 +6,27 @@ margin-bottom: 6px;
         border-radius: 6.25rem;
         
     }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: burlywood;
+    background-color: #386696;
+    }
+       
     .nav-link {
         
         padding: 1.5rem 3rem;
         border-radius: 6.25rem;
+        font-weight: bold;
+        font-size: 18px;
+        font-style: italic;
     
     } 
     .nav-item:hover{
-        background-color:#007bff;
+        background-color:#7288a059;
         border-radius: 6.25rem;
-        }   
-
-a {
-    color: white;
-      
+        } 
+     
+a{
+    color:burlywood;
 }
 
 

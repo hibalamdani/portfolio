@@ -1,0 +1,70 @@
+// start features
+.features{
+
+
+    .features__h1{
+      margin-top: 109px;
+      margin-bottom: 56px;
+    } 
+    .features__h1__h1{
+      color: burlywood;
+      font-weight: bold;
+    }
+    .features__img{
+      height: 140px;
+      margin-bottom: 40px;
+    
+    }
+    .features__img__img{
+      animation: moving 2s infinite linear;
+      
+      
+    }
+    
+    }
+    @keyframes moving{
+      0%{
+        transform: translateX(0px);
+      }
+      25%{
+        transform: translateX(10px);
+      }
+      50%{
+        transform: translateX(15px);
+      }
+      75%{
+        transform: translateX(8px);
+      }
+      100%{
+        transform: translateX(0px);
+      }
+    
+    
+    
+    }
+    
+    .features__img__img--img {
+      animation: opacity 2s infinite linear;
+    }
+    
+    @keyframes opacity{
+    0%{
+      opacity: 0.9;
+    }
+    25%{
+      opacity: 0.5;
+    
+    }
+    50%{
+      opacity: 0;
+    
+    }
+    100%{
+      opacity: 0.8;
+    
+    }
+    
+    }
+    
+    
+    // end features

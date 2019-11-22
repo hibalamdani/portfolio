@@ -3,7 +3,6 @@
 }
 
 .row .row__img {
-  width: 100%;
   height: 204px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,128 +15,9 @@
 }
 
 .row .row__img__img {
-  border-radius: 50%;
-  width: 100%;
+  width: 279px;
+  margin-left: -3%;
   height: 309px;
-  margin-top: -155px;
-  -webkit-animation: change 3s infinite linear;
-          animation: change 3s infinite linear;
-}
-
-@-webkit-keyframes change {
-  30% {
-    opacity: 0.4;
-    background-image: url("https://previews.123rf.com/images/olleg/olleg1710/olleg171000071/88931693-welcom-message-girl-holding-welcom-poster-illustration-.jpg");
-  }
-}
-
-@keyframes change {
-  30% {
-    opacity: 0.4;
-    background-image: url("https://previews.123rf.com/images/olleg/olleg1710/olleg171000071/88931693-welcom-message-girl-holding-welcom-poster-illustration-.jpg");
-  }
-}
-
-.info {
-  margin-top: 12px;
-  margin-bottom: 60px;
-}
-
-.info h1 {
-  font-weight: bold;
-  margin-bottom: 34px;
-}
-
-.info .lead {
-  line-height: 1.5rem;
-}
-
-.carousel-item p {
-  line-height: 2rem;
-}
-
-.carousel-indicators {
-  margin-bottom: -57px;
-}
-
-.features .features__h1 {
-  margin-top: 109px;
-  margin-bottom: 56px;
-}
-
-.features .features__img {
-  height: 140px;
-  margin-bottom: 40px;
-}
-
-.features .features__img__img {
-  -webkit-animation: moving 2s infinite linear;
-          animation: moving 2s infinite linear;
-}
-
-@-webkit-keyframes moving {
-  0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  25% {
-    -webkit-transform: translateX(10px);
-            transform: translateX(10px);
-  }
-  50% {
-    -webkit-transform: translateX(15px);
-            transform: translateX(15px);
-  }
-  75% {
-    -webkit-transform: translateX(8px);
-            transform: translateX(8px);
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-}
-
-@keyframes moving {
-  0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  25% {
-    -webkit-transform: translateX(10px);
-            transform: translateX(10px);
-  }
-  50% {
-    -webkit-transform: translateX(15px);
-            transform: translateX(15px);
-  }
-  75% {
-    -webkit-transform: translateX(8px);
-            transform: translateX(8px);
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-}
-
-.content .content__h1 {
-  margin-bottom: 53px;
-  margin-top: 35px;
-}
-
-.content .content__img {
-  height: 295px;
-  margin-bottom: 40px;
-}
-
-.content .content__img__img {
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-.content .content__img__img:hover {
-  -webkit-transform: translatex(15px);
-          transform: translatex(15px);
+  margin-top: -108px;
 }
 /*# sourceMappingURL=main.css.map */

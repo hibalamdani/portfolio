@@ -1,0 +1,25 @@
+.content .content__h1 {
+  margin-bottom: 53px;
+  margin-top: 35px;
+}
+
+.content .content__h1__h1 {
+  color: burlywood;
+  font-weight: bold;
+}
+
+.content .content__img {
+  height: 295px;
+  margin-bottom: 40px;
+}
+
+.content .content__img__img {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.content .content__img__img:hover {
+  -webkit-transform: translatex(15px);
+          transform: translatex(15px);
+}
+/*# sourceMappingURL=content.css.map */
