@@ -12,9 +12,18 @@
 }
 
 .footer .footer--divcolor {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
   background-color: #73a1a71c;
   padding-top: 17px;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  transition: all 1s ease-in-out;
+}
+
+.footer .footer--divcolor:hover {
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
+  color: red;
 }
 /*# sourceMappingURL=footer.css.map */

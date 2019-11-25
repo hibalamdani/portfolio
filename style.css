@@ -1,4 +1,6 @@
 body {
+  -webkit-perspective: 500px;
+          perspective: 500px;
   background-image: url("http://eskipaper.com/images/bubbles-wallpaper-1.jpg");
   background-size: cover;
   background-attachment: fixed;
