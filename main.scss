@@ -15,26 +15,26 @@
     margin-left: -3%;
     height: 309px;
     margin-top: -108px;
-    animation: img 10s infinite linear;
+    // animation: img 10s infinite linear;
   } 
-  @keyframes img{
-    0%{
-      transform: scale3d(1.2, 1.2, 1);
-    }
-    25%{
-      transform: scale3d(0, 0, 1);
+  // @keyframes img{
+  //   0%{
+  //     transform: scale3d(1.2, 1.2, 1);
+  //   }
+  //   25%{
+  //     transform: scale3d(0, 0, 1);
     
-    }
-    50%{
-      transform: scale3d(1.2, 1.2, 1);
+  //   }
+  //   50%{
+  //     transform: scale3d(1.2, 1.2, 1);
     
-    }
-    100%{
-      transform: scale3d(.5, .5, 1);
+  //   }
+  //   100%{
+  //     transform: scale3d(.5, .5, 1);
     
-    }
+  //   }
     
-    }
+    // }
 }
 // end my foto
 
